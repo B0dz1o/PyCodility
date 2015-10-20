@@ -12,5 +12,5 @@ Solutions to:
 
   - [x] FrogRiverOne
   - [x] PermCheck
-  - [ ] MissingInteger
+  - [x] MissingInteger
 

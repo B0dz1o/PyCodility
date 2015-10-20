@@ -14,4 +14,8 @@ Solutions to:
   - [x] PermCheck
   - [x] MissingInteger
   - [x] MaxCounters
+  
+* Lesson 3  
+
+  - [x] CountDiv
 

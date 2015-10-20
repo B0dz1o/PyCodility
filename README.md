@@ -13,4 +13,4 @@ Solutions to:
   - [x] FrogRiverOne
   - [x] PermCheck
   - [ ] MissingInteger
-
+  - [ ] / [x] MaxCounters (correct, but low in performance

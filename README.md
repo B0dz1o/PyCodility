@@ -6,4 +6,5 @@ Solutions to:
 
   - [x] TapeEquilibrium
   - [x] FrogJmp
+  - [x] PermMissingElem
 

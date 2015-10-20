@@ -4,11 +4,11 @@
 def solution(A):
     # write your code in Python 2.7
     N = len(A)
-    if N == 1:
-        if A[0] == 1:
-            return 2
-        else:
-            return 1
+#    if N == 1:
+#        if A[0] == 1:
+#            return 2
+#        else:
+#            return 1
     A.append(0)
     for i in range(N + 1):
         val = A[i]

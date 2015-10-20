@@ -8,3 +8,7 @@ Solutions to:
   - [x] FrogJmp
   - [x] PermMissingElem
 
+* Lesson 2  
+
+  - [x] FrogRiverOne
+

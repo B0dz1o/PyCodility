@@ -8,14 +8,22 @@ def solution(N, A):
         counters.append(0)
     N_cmp = N + 1
     max_counter = 0
+    last_max = 0
     for operation in A:
         if operation == N_cmp:
-            for i in range(N):
-                counters[i] = max_counter
+            last_max = max_counter
         else:
-            counters[operation-1] += 1
-            if counters[operation-1] > max_counter:
-                max_counter = counters[operation-1]
+            op_num = operation - 1
+            if counters[op_num] < last_max:
+                counters[op_num] = last_max + 1
+            else:
+                counters[op_num] += 1
+            if counters[op_num] > max_counter:
+                max_counter = counters[op_num]
+    for i in range(N):
+        if counters[i] < last_max:
+            counters[i] = last_max
+        
             
     return counters
             

@@ -19,4 +19,5 @@ Solutions to:
 
   - [x] CountDiv
   - [x] PassingCars
+  - [ ] / [x] MinAvgTwoSlice (correct, but O(n^2) )
 
